@@ -1,0 +1,27 @@
+<!DOCTYPE hml>
+<html lang="es">
+	<head>
+		<title>Formulario de Login </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+		<link rel="stylesheet" type="text/css" href="login.css">
+
+
+		<script>
+function usrpas(){
+if (document.form1.txt.value=="Ulises" && document.form1.num.value=="1234"){window.location="hola.html";return}
+ 
+else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+
+	</head>
+	<body>
+		<form name="form1">
+		<input type="text" placeholder="&#128272; Usuario" name="txt"> Usuario (Ulises)<br>
+		<input type="text" placeholder="&#128272; Contraseña" name="num"> Contraseña (1234)<br>
+		<input type="button" value="Ingresar" onclick="usrpas()">
+		</form>
+	</body>
+</html>

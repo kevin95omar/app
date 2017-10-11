@@ -1,0 +1,89 @@
+body{
+	background-color: #1B5E20;
+}
+
+#menu {
+  float: left;
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+
+}
+
+#menu ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+#menu ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+#menu ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu ul li:hover {
+  background: #3ead47;
+}
+#portadaimg{
+	width:100%;
+	height: 500px;
+	margin-top: 95px;
+}
+#columnaizquierda{
+	position: absolute;
+	left: 75%;
+	top:650px;
+	width:25%;
+	padding:5px;
+	text-align: center;
+	color: white;
+
+}
+#imagen1{
+	width: 50%;
+}
+#imagen2{
+	width: 60%;
+}
+#contenido{
+	top:0px;
+	padding:5px;
+	color:#E0E0E0;
+	width:75%;
+	text-align: justify;
+	margin-left: 30px;
+}
+h1{
+	font:bold 14pt Arial, Helvetica, gevena;
+}
+h2{
+	font : bold 12pt Arial, Helvetica,gevena;
+}
+#piepagina {
+	width: 100%;
+	height: 8%;
+	margin-left:0px;
+	text-align:center;
+	position:absolute;
+	font-size:20pts;
+	font-style:italic;
+	color: white;
+	background-color:rgba(0,0,0,0.9);
+}
+table{
+	color: white;
+	text-align: justify;
+	text-align: justify;
+}
+
+#trtitulos{
+	text-align: center;
+}
